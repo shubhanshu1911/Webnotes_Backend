@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURL = "mongodb://localhost:27017/webnotes?directConnection=true";
+const mongoURL = "mongodb+srv://ishankhare30:aCL1EON5KOJwHprQ@cluster0.f8olp0a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const connectToMongo = async () => {
     try {
@@ -12,3 +12,7 @@ const connectToMongo = async () => {
 }
 
 module.exports = connectToMongo;
+
+
+// ishankhare30
+// aCL1EON5KOJwHprQ
