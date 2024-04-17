@@ -5,7 +5,7 @@ var cors = require('cors')
 connectToMongo();
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.use(cors({
     origin: ["http://localhost:3000", "https://webnotes.onrender.com"]
