@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-    origin: ["http://localhost:3000", "https://webnotes-0iqe.onrender.com/signup"]
+    origin: ["http://localhost:3000", "https://webnotes-0iqe.onrender.com/signup" , "https://webnotes-0iqe.onrender.com/login"]
 }));
 
 app.use(express.json());
